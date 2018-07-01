@@ -896,6 +896,10 @@
 			-moz-osx-font-smoothing: grayscale;
 		}
 
+		#header .icon:before {
+			font-size: 1em;
+		}
+
 		.icon > .label {
 			display: none;
 		}
@@ -1685,6 +1689,12 @@
 			cursor: default;
 		}
 
+			#header h1 img {
+				height: 3em;
+				vertical-align: middle;
+				margin-right: 25px;
+			}
+
 			#header h1 a {
 				font-size: 1.25em;
 			}
@@ -1732,6 +1742,12 @@
 					height: 2.5em;
 					line-height: 2.5em;
 				}
+
+					#header h1 img {
+						height: 2.5em;
+						vertical-align: middle;
+						margin-right: 10px;
+					}
 
 					#header h1 a {
 						font-size: 1em;
