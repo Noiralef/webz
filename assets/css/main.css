@@ -2015,12 +2015,17 @@
 
 	#footer {
 		position: relative;
-		height: 5em;
-		line-height: 5em;
+		height: auto;
 		margin: 0;
+		padding: 0.5em;
+		padding-bottom: 0;
 		background: #39454b;
 		color: rgba(185, 186, 187, 0.5);
 		overflow: hidden;
+	}
+
+	#footer p {
+		line-height: 1.25em;
 	}
 
 		#footer a {
@@ -2143,7 +2148,7 @@
 
 	#contact {
 		overflow: hidden;
-		padding-bottom: 0;
+		padding-bottom: 5em;
 	}
 
 		#contact .box {
