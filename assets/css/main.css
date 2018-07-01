@@ -30,6 +30,10 @@
 		list-style: none;
 	}
 
+	ol {
+		margin-left: 1em;
+	}
+
 	blockquote, q {
 		quotes: none;
 	}
@@ -2168,3 +2172,19 @@
 			}
 
 		}
+
+	#join {
+		display: inline-block;
+		text-align: left;
+		max-width: 75%;
+		font-size: 80%;
+	}
+
+	#join p {
+		line-height: 1.5em;
+	}
+
+	#join li {
+		line-height: 1.25em;
+		margin: 5px 0;
+	}
