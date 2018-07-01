@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d [OR]
+RewriteRule . /index.html [R=301,L]
+RewriteCond %{REQUEST_URI} .git
+RewriteRule . /index.html [R=301,L]
+</IfModule>
